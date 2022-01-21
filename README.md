@@ -47,7 +47,12 @@ right click conky.sh Properties > Permissions > Check 'allow executing file as p
 in Zorin Application Menu 
 
 Settings > Start Up Applications
+
 ADD
+
 Name: Conky
+
 Command: /home/%uname%/conky.sh    //Replace %uname% with you username
+
 Comment: Conky
+
