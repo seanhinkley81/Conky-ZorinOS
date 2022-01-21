@@ -35,13 +35,17 @@ launch with command conky - c ~/.conky/conky.conf
 //Create Auto Launch File
 in Home directory right-click create new text file
 add the following line
+
 wait 10 & conky -c ~/.conky/conky.conf
 
 save as conky.sh
+
 right click conky.sh Properties > Permissions > Check 'allow executing file as program' 
 
 // Setup Auto Launch
+
 in Zorin Application Menu 
+
 Settings > Start Up Applications
 ADD
 Name: Conky
