@@ -1,6 +1,7 @@
 # Conky-ZorinOS
 Conky Config for Zorin OS
 Modified Conky Config file for Zorin OS Based off Klaatu-Conky-Conf
+Updated Conky.conf for Awesome fonts 6.x 3/26/2022
 
 http://conky.sourceforge.net/docs.html
 
@@ -21,7 +22,7 @@ sudo apt install conky-all
 //Install Sensors
 sudo apt install lmsensors
 
-//Install Awesome font
+//Install Awesome font 
 
 https://fontawesome.com/
 
