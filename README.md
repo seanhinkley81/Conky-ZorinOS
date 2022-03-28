@@ -3,6 +3,11 @@ Conky Config for Zorin OS
 Modified Conky Config file for Zorin OS Based off Klaatu-Conky-Conf
 Updated Conky.conf for Awesome fonts 6.x 3/26/2022
 
+Decided to share my conky config, not only for my own ease of use of cloning it down to for reimages, new machines, and vm's but also in case anyone else finds it useful.
+
+I hope you find it as useful and elegant as I do.
+
+
 http://conky.sourceforge.net/docs.html
 
 http://conky.sourceforge.net/variables.html
@@ -56,4 +61,6 @@ Name: Conky
 Command: /home/%uname%/conky.sh    //Replace %uname% with you username
 
 Comment: Conky
+
+
 
