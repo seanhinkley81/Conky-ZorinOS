@@ -20,6 +20,8 @@ https://cairographics.org/manual/
 
 https://github.com/Eboreg/klaatu-conky-conf/
 
+https://github.com/seanhinkley81/Conky-ZorinOS
+
 
 //Install Conky
 sudo apt install conky-all
@@ -64,3 +66,4 @@ Comment: Conky
 
 
 
+https://github.com/seanhinkley81/Conky-ZorinOS
