@@ -52,7 +52,7 @@ git clone https://github.com/seanhinkley81/Conky-ZorinOS .conky
 //Create Autorun File
 In terminal
 
-cat >> conk.sh
+cat >> conky.sh
 
 #!/bin/bash
 
