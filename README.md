@@ -24,35 +24,46 @@ https://github.com/seanhinkley81/Conky-ZorinOS
 
 
 //Install Conky
-sudo apt install conky-all
+In Terminal
 
-//Install Sensors
-sudo apt install lmsensors
+sudo apt install conky-all -y
 
-//Install Awesome font 
+//Install LM-Sensors
+In Terminal
 
-https://fontawesome.com/
+sudo apt install lmsensors -y
 
-Goto Home folder create directory .conky
+//Install Font Awesome
+Goto https://fontawesome.com/
+On the Top Menu Select Start
+Scroll past Sign Up to the "Other Ways to Use" section click Download
+In the 6.x.x For The Desktop section Select Free For Desktop
+After Download Finishes - Extract Archive.
+Open Folder, Open /fontawesome-free-6.x.x-desktop/otfs/ folder
+Install all 3 font sets (in ZorinOS you should be able to open them and click Install in the top bar)
 
-Copy Project files to
-~./conky
+#Pull Conky Config
+Open Terminal
 
-launch with command conky - c ~/.conky/conky.conf
+cd ~
 
-//Create Auto Launch File
-in Home directory right-click create new text file
-add the following line
+git clone https://github.com/seanhinkley81/Conky-ZorinOS .conky
+
+//Create Autorun File
+In terminal
+
+cat >> conk.sh
+
+#!/bin/bash
 
 wait 10 & conky -c ~/.conky/conky.conf
 
-save as conky.sh
+<CTRL+C>
 
-right click conky.sh Properties > Permissions > Check 'allow executing file as program' 
+chmod u+x conky.sh
 
-// Setup Auto Launch
-
-in Zorin Application Menu 
+//Setup Auto Launch
+Zorin Application Menu
 
 Settings > Start Up Applications
 
@@ -60,10 +71,10 @@ ADD
 
 Name: Conky
 
-Command: /home/%uname%/conky.sh    //Replace %uname% with you username
+Command: /home/%uname%/conky.sh //Replace %uname% with your username
 
 Comment: Conky
 
 
-
 https://github.com/seanhinkley81/Conky-ZorinOS
+BTC: 3MN3oLkfbokDeGN7EVxC9o3zrn2bcRMrey
