@@ -77,4 +77,5 @@ Comment: Conky
 
 
 https://github.com/seanhinkley81/Conky-ZorinOS
-BTC: 3MN3oLkfbokDeGN7EVxC9o3zrn2bcRMrey
+
+https://www.buymeacoffee.com/seankhinkley
