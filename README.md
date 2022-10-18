@@ -78,4 +78,4 @@ Comment: Conky
 
 https://github.com/seanhinkley81/Conky-ZorinOS
 
-https://www.buymeacoffee.com/seankhinkley
+
