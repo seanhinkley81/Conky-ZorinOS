@@ -31,7 +31,7 @@ sudo apt install conky-all -y
 //Install LM-Sensors
 In Terminal
 
-sudo apt install lmsensors -y
+sudo apt install lm-sensors -y
 
 //Install Font Awesome
 Goto https://fontawesome.com/
